@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inlämnings 2</title>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Budget App!</h1>
+        <h3>Inkomst</h3>
+            <div id="totaltInkomst"></div>
+        <h3>Utgifter</h3>
+            <div id="totaltKostnad"></div>
+        <h3>Totalt</h3>
+            <div id="totaltSumma"></div>
+    </div>
+    <br>
+
+    <div class="container2">
+        <input type="text" id="beskrivning" placeholder="Beskrivning"></input>
+        <input type="number" id="value" placeholder="Pris"></input> 
+        <select class="select-container">
+            <option>+</option>
+            <option>-</option>
+        </select>
+        <button class="btn">Lägg till</button>
+    </div>
+    <br>
+
+    <div class="list-container" style="list-style-type:none">
+        <h3>InkomstLista</h3>
+        <div><li id="inkomstLista"></li></div>
+        <h3>UtgiftLista</h3>
+        <div><li id="kostnadsLista"></li></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+body {
+  background-image: url("./bkrnd.png");
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  color: #141616; }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: hidden; }
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.select-container {
+  border-radius: 20px;
+  margin: 15px; }
+
+.btn {
+  border-radius: 15px;
+  margin: 10px; }
+
+.list-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
